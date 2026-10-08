@@ -39,8 +39,7 @@ img {
 a {
     color: white;
     background-color: #721c24;  
-    padding: 10px 15px;        
-    text-decoration: none;     
+    padding: 10px 15px;             
     font-weight: bold;
 }
 
@@ -50,4 +49,7 @@ a {
     text-align: center;        
     padding: 15px;
     margin-top: 30px;          
+}
+h1{
+    color: burlywood;
 }
