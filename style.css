@@ -1,0 +1,56 @@
+body {
+    background-color: #794646;
+    color: #331515;          
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color:#42030c ; /
+    color:  #eedb9e;          
+    text-align: center;    
+    padding: 20px;             
+}
+
+main {
+    max-width: 800px;       
+    margin: 20px auto;         
+    padding: 10px;
+}
+
+section {
+    background-color: #F5EFEB; 
+    margin-bottom: 20px;       
+    padding: 20px;              
+    border-left: 6px solid #721c24;  
+}
+
+ h2, h3, h4 {
+    color: #4A0E17;            /* Títulos en color Bordó */
+}
+
+/* --- 6. La Imagen de la receta --- */
+img {
+    max-width: 100%;           /* Para que no se agrande más que la pantalla */
+    height: auto;
+    border: 4px solid #4A0E17; /* Marco grueso color bordó */
+}
+
+/* --- 7. El Enlace / Botón de YouTube --- */
+a {
+    color: white;
+    background-color: #721c24; /* Botón color vino */
+    padding: 10px 15px;        /* Lo hace más gordito para que parezca botón */
+    text-decoration: none;     /* Le saca el subrayado feo de los links */
+    font-weight: bold;
+}
+
+/* --- 8. El Pie de Página (Abajo del todo) --- */
+footer {
+    background-color: #4A0E17; /* Bordó oscuro */
+    color: white;              /* Letras blancas */
+    text-align: center;        /* Centrar texto */
+    padding: 15px;
+    margin-top: 30px;          /* Separarlo de la última sección */
+}
